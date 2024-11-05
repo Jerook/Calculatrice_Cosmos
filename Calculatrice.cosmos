@@ -1,0 +1,127 @@
+Auteur: pw79xmw
+Date: 28.10.2024
+Entreprise: DGEP
+Description: Calculatrice
+
+Voici les ordres du programme Calculatrice  :
+
+
+//Entrée : demander nombre
+    Créer une zone mémoire #nombre1.
+    Afficher "Entrez nombre : ".
+
+    Récupérer la saisie et la stocker dans la zone mémoire nommée #nombre1.
+    Afficher "#nombre1".
+    
+//Entrée : opération désirée
+
+    Créer une zone mémoire #signe.
+    Effacer l'écran.
+    Afficher "Entrez l’opération : ".
+    Récupérer la saisie et la stocker dans la zone mémoire nommée #signe.
+
+    Si la valeur enregistrée dans la zone mémoire nommée #signe est égale à "+" alors
+
+        //Calcul arithmétique : additionner les nombres
+
+        Afficher "#nombre1 + ".
+        Créer une zone mémoire #nombre2.
+        Récupérer la saisie et la stocker dans la zone mémoire nommée #nombre2.
+        Effacer l'écran.
+        Afficher "#nombre1 + #nombre2 = ".
+        Créer une zone mémoire #resultat.
+        #resultat = #nombre1 plus #nombre2.
+
+    sinon si la valeur enregistrée dans la zone mémoire nommée #signe est égale à "-" alors
+
+        //Calcul arithmétique : soustraire les nombres
+
+        Afficher "#nombre1 - ".
+        Créer une zone mémoire #nombre2.
+        Récupérer la saisie et la stocker dans la zone mémoire nommée #nombre2.
+        Effacer l'écran.
+        Afficher "#nombre1 - #nombre2 = ".
+        Créer une zone mémoire #resultat.
+        #resultat = #nombre1 moins #nombre2.
+    
+    sinon si la valeur enregistrée dans la zone mémoire nommée #signe est égale à "*" alors
+
+        //Calcul arithmétique : multiplier les nombres
+
+        Afficher "#nombre1 *".
+        Créer une zone mémoire #nombre2.
+        Récupérer la saisie et la stocker dans la zone mémoire nommée #nombre2.
+        Effacer l'écran.
+        Afficher "#nombre1 * #nombre2 = ".
+        Créer une zone mémoire #resultat.
+        #resultat = #nombre1 fois #nombre2.
+
+    sinon si la valeur enregistrée dans la zone mémoire nommée #signe est égale à "/" alors
+
+        //Calcul arithmétique : diviser les nombres
+
+        Afficher "#nombre1 : ".
+        Créer une zone mémoire #nombre2.
+        Récupérer la saisie et la stocker dans la zone mémoire nommée #nombre2.
+        Effacer l'écran.
+        Afficher "#nombre1 : #nombre2 = ".
+        Créer une zone mémoire #resultat.
+        #resultat = #nombre1 divisé par #nombre2.
+
+    sinon si la valeur enregistrée dans la zone mémoire nommée #signe est égale à "inversion" alors
+
+        //Calcul arithmétique : inversion
+
+        Effacer l'écran.
+        Afficher "1 / #nombre1 = ".
+        Créer une zone mémoire #resultat.
+        #resultat = 1 / #nombre1.
+
+    sinon si la valeur enregistrée dans la zone mémoire nommée #signe est égale à "racine carrée" alors
+
+        //Calcul arithmétique : racine carrée
+
+        Effacer l'écran.
+        Afficher "√ #nombre1 = ".
+        Créer une zone mémoire #resultat.
+        #resultat = racine carrée de #nombre1.
+
+    sinon si la valeur enregistrée dans la zone mémoire nommée #signe est égale à "^" alors
+
+        //Calcul arithmétique : élever à la puissance
+
+        Afficher "#nombre1 ^ ".
+        Créer une zone mémoire #nombre2.
+        Récupérer la saisie et la stocker dans la zone mémoire nommée #nombre2.
+        Effacer l'écran.
+        Afficher "#nombre1 ^ #nombre2 = ".
+        Créer une zone mémoire #resultat.
+        #resultat = #nombre1 élevé à la puissance #nombre2.
+    
+
+    sinon si la valeur enregistrée dans la zone mémoire nommée #signe est égale à "%" alors
+
+        //Calcul arithmétique : élever à la puissance
+
+        Effacer l'écran.
+        Afficher "#nombre1 % = ".
+        Créer une zone mémoire #resultat.
+        #resultat = #nombre1 / 100.
+    ?
+
+  //  Afficher "#resultat".
+
+// Créer une zone mémoire #mr.
+
+  //  Créer une zone mémoire #mem.
+//    Afficher "Voulez-vous enregistrer le résultat en mémoire (oui / non) ? ".
+
+  //  Récupérer la saisie et la stocker dans la zone mémoire nommée #mem.
+
+    //Si saisie est égale à "oui"
+      //  Insérer la valeur #resultat dans #mr.
+
+
+  //  ?
+
+Fin de la transmission.
